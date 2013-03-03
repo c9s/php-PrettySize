@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.4.10" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0               http://pear.php.net/dtd/tasks-1.0.xsd               http://pear.php.net/dtd/package-2.0               http://pear.php.net/dtd/package-2.0.xsd">
+  <name>File_PrettySize</name>
+  <channel>pear.corneltek.com</channel>
+  <summary>Pretty Size Formatter</summary>
+  <description>Pretty Size Formatter</description>
+  <lead>
+    <name>Yo-An Lin</name>
+    <user/>
+    <email>cornelius.howl@gmail.com</email>
+    <active>yes</active>
+  </lead>
+  <date>2013-03-03</date>
+  <time>15:06:29</time>
+  <version>
+    <release>1.0.0</release>
+    <api>1.0.0</api>
+  </version>
+  <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+  </stability>
+  <license>PHP</license>
+  <notes>-</notes>
+  <contents>
+    <dir name="/">
+      <file name="src/File/PrettySize.php" role="php" md5sum="1db83f76caf0e11abf969254303e6d68"/>
+    </dir>
+  </contents>
+  <dependencies>
+    <required>
+      <php>
+        <min>5.3</min>
+      </php>
+      <pearinstaller>
+        <min>1.4</min>
+      </pearinstaller>
+    </required>
+  </dependencies>
+  <phprelease>
+    <filelist>
+      <install name="src/File/PrettySize.php" as="File/PrettySize.php"/>
+    </filelist>
+  </phprelease>
+</package>
